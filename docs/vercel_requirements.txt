@@ -4,7 +4,7 @@
 -e ../libs/text-splitters
 langgraph
 langchain-cohere
-urllib3==1.26.19
+urllib3==2.7.0
 nbconvert==7.16.4
 
 # temp fix, uv fails to install 3.10.7 
