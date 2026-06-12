@@ -54,7 +54,7 @@ langgraph = { git = "https://github.com/langchain-ai/langgraph.git", subdirector
 jupyter = "^1.1.1"
 click = "^8.1.7"
 faiss-cpu = "^1.7.4"
-pypdf = "^5.0.0"
+pypdf = ">=5,<7"
 vcrpy = "^6.0.1"
 
 [tool.poetry.group.test_integration.dependencies]
